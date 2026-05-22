@@ -72,13 +72,13 @@ lazy
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad3
 wideo: https://github.com/siemamen7/projektowanie_obiektowe/blob/main/zad3/Nagrywanie%20ekranu%202026-04-16%20173645%20(720p).mp4
 
-✅✅✅ Zadanie 4 - WSZYSTKO JEST ✅✅✅
+# ✅✅✅ Zadanie 4 - WSZYSTKO JEST ✅✅✅
 
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad4
 
 wideo: https://github.com/siemamen7/projektowanie_obiektowe/blob/main/zad4/Nagrywanie%20ekranu%202026-05-21%20132602%20(2).mp4
 
-✅✅✅ Zadanie 5 - WSZYSTKO JEST ✅✅✅
+# ✅✅✅ Zadanie 5 - WSZYSTKO JEST ✅✅✅
 
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad5
 
