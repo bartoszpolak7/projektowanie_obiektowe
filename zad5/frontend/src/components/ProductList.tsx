@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import { getProducts } from "../api/api";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { type Product } from "../types";
-import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
 export const ProductList = () => {
@@ -25,11 +24,13 @@ export const ProductList = () => {
           <button onClick={() => addToCart(product)}>
             Add to cart
           </button>
-          <button>
-            <Link to="/cart">Go to cart</Link>
-          </button>
         </div>
+        
       ))}
+
+      <button>
+        <Link to="/cart">Go to cart</Link>
+      </button>
     </div>
   );
 };

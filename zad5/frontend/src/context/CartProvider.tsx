@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useContext, useState, type ReactNode } from "react";
 import type { CartItem, Product } from "../types";
 import { CartContext } from "./CartContext";
+import { ProductsContext } from "./ProductsContext";
 
-export const CartProvider = ({ children }: { children: React.ReactNode }) => {
+export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [cart, setCart] = useState<CartItem[]>([]);
+  const products = useContext(ProductsContext);
+
 
   const addToCart = (product: Product) => {
     setCart((prev) => {
@@ -26,7 +29,14 @@ export const CartProvider = ({ children }: { children: React.ReactNode }) => {
 
   const clearCart = () => setCart([]);
 
-  const getTotal = () => cart.reduce((sum, item) => sum + item.amount, 0);
+  const getTotal = () => {
+     const productMap = new Map(products.map(p => [p.id, p]));
+
+     return cart.reduce((sum, item) => {
+       const product = productMap.get(item.productId);
+       return sum + (product ? product.price * item.amount : 0);
+     }, 0);
+  };
 
   return (
     <CartContext.Provider value={{ cart, addToCart, clearCart, getTotal }}>

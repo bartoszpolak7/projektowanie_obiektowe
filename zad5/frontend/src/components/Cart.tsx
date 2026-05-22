@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect, useContext } from "react";
 import { getProducts } from "../api/api";
 import type { Product } from "../types";
-import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
 export const Cart = () => {
   const cartState = useContext(CartContext);
   const [products, setProducts] = useState<Product[]>([]);
-  getProducts().then((res) => setProducts(res.data));
 
+  useEffect(() => {
+    getProducts().then((res) => setProducts(res.data));
+  }, []);
 
   return (
     <div>
@@ -26,7 +27,7 @@ export const Cart = () => {
         );
       })}
 
-      <div>Total: {cartState.getTotal()} zł</div>
+      <div style={{ padding: 10 }}>Total: {cartState.getTotal()} zł</div>
       <button>
         <Link to="/payment">Payment</Link>
       </button>
