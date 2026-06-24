@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>#(product.name)</title>
+</head>
+<body>
+  <h1>#(product.name)</h1>
+  <p>Price: #(product.price) PLN</p>
+  <a href="/products/#(product.id)/edit">Edit</a>
+  <a href="/products">Back</a>
+</body>
+</html>
