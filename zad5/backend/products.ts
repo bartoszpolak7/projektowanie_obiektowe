@@ -3,7 +3,3 @@ export const products = [
     { id: 2, name: 'Lego Ninjago', price: 49.99 },
     { id: 3, name: 'Buty na rzepy', price: 99.99 },
 ]
-
-const unusedd = 'unused'
-const nieuzywana = 'nieuzywana'
-const moze = 'teraz'
