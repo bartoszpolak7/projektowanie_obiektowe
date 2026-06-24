@@ -1,3 +1,5 @@
+Wszystkie nagrania znajdują się w folderze "nagrania"
+
 # Zadanie 1
 
 ✅ 3.0 Procedura do generowania 50 losowych liczb od 0 do 100
@@ -51,8 +53,6 @@ commit: https://github.com/siemamen7/programowanie_obiektowe/commit/a617719489b0
 
 final image: https://hub.docker.com/repository/docker/szczuras7/projobj2/general
 
-wideo: https://github.com/siemamen7/programowanie_obiektowe/blob/main/zad2/Nagrywanie%20ekranu%202026-04-14%20163533%20(720p).mp4
-
 # Zadanie 3
 
 ✅ 3.0 Należy stworzyć jeden kontroler wraz z danymi wyświetlanymi z
@@ -70,17 +70,17 @@ kontruktor (constructor injection)
 lazy
 
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad3
-wideo: https://github.com/siemamen7/projektowanie_obiektowe/blob/main/zad3/Nagrywanie%20ekranu%202026-04-16%20173645%20(720p).mp4
 
 # ✅✅✅ Zadanie 4 - WSZYSTKO JEST ✅✅✅
 
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad4
 
-wideo: https://github.com/siemamen7/projektowanie_obiektowe/blob/main/zad4/Nagrywanie%20ekranu%202026-05-21%20132602%20(2).mp4
-
 # ✅✅✅ Zadanie 5 - WSZYSTKO JEST ✅✅✅
 
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad5
 
-wideo: https://github.com/siemamen7/projektowanie_obiektowe/blob/main/zad5/Nagrywanie%20ekranu%202026-05-22%20195522%20(2).mp4
+# Zadanie 6 - tylko ✅3.0
+
+konfiguracja prettier, husky i eslinta znajduję się w root repo, kod w zad5
+kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad5
 
