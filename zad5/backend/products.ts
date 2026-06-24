@@ -5,3 +5,4 @@ export const products = [
 ]
 
 const unusedd = 'unused'
+const nieuzywana = 'nieuzywana'
