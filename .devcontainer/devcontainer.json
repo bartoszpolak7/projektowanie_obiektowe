@@ -1,6 +1,6 @@
 {
     "name": "Vapor Zad6",
-    "image": "kprzystalski/projobj-swift:latest",
+    "image": "szczuras7/projobj7:latest",
     "workspaceFolder": "/app",
     "remoteUser": "root"
 }
