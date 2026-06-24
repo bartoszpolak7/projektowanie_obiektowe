@@ -1,5 +1,33 @@
-.err
-.out
-.bak
-.exe
-.o
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.exe
+*.o
+
+# Logs
+*.log
+*.err
+*.out
+
+# Backup / temp files
+*.bak
+*.tmp
+*~
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+
+# ESLint cache (you're using --cache!)
+.eslintcache
+
+# Husky internals (only needed if using older husky, usually fine to skip)
