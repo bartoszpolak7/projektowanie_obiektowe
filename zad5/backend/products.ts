@@ -7,5 +7,3 @@ export const products = [
 const unusedd = 'unused'
 const nieuzywana = 'nieuzywana'
 const moze = 'teraz'
-const wartosc = 'stala'
-const test = 'test'
