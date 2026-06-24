@@ -4,4 +4,4 @@ export const products = [
     { id: 3, name: 'Buty na rzepy', price: 99.99 },
 ]
 
-const unused = 'unused'
+const unusedd = 'unused'
