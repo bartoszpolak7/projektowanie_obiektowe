@@ -79,8 +79,20 @@ kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad4
 
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad5
 
-# Zadanie 6 - tylko ✅3.0
+# Zadanie 6 - tylko 3.0
 
 konfiguracja prettier, husky i eslinta znajduję się w root repo, kod w zad5
 kod: https://github.com/siemamen7/projektowanie_obiektowe/tree/main/zad5
+
+# Zadanie 7 - tylko 3.0
+
+kod: https://github.com/bartoszpolak7/projektowanie_obiektowe/tree/main/zad7
+
+# Zadanie 8 - tylko 3.0
+
+kod: https://github.com/bartoszpolak7/projektowanie_obiektowe/tree/main/zad8
+
+# Zadanie 9 - tylko 3.0
+
+Samo wideo
 
